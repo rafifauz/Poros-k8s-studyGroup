@@ -6,8 +6,12 @@
 
 
 ### lv1:
+```
 kubectl apply -f LandingPage.yaml
+```
 
 ### lv2:
+```
 kubectl apply -f configmap.yaml
 kubectl apply -f LandingPage.yaml
+```
